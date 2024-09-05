@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <!-- inline style CSS -->
+    <style>
+      iframe {
+        display: block;
+        color: black;
+  border: 1px solid black;
+  width: 100%; /* takes precedence over the width set with the HTML width attribute */
+}
+
+    </style>
+    <!-- inline js script -->
+    <script>#</script>
+  </head>
+  <body>
+    <h1>List</h1>
+    <!-- unoder list -->
+    <ul type="square">
+      <!--you can define the type of the list -->
+      <!-- list item -->
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Contect</li>
+    </ul>
+    <!-- ordered list -->
+    <ol type="A">
+      <!--you can define the type of the list -->
+      <li>Home</li>
+      <!-- list item -->
+      <li>About</li>
+      <li>Services</li>
+      <li>Contect</li>
+    </ol>
+
+    <!-- table -->
+    <h1>Table</h1>
+    <div>
+      <table>
+        <caption>
+          MAX-Score by different players in different games
+        </caption>
+        <thead bgcolor="green">
+          <tr>
+            <th>S.no</th> <!-- colspan="2" the two columns will be merged   -->
+            <th>Player-name</th>
+            <th>Countery</th>
+            <th>Price</th>
+            <th>Max-score</th>
+            <th>Game</th>
+          </tr>
+        </thead>
+        <tbody bgcolor="yellow">
+          <tr>
+            <td>1</td>
+            <td>abc</td>
+            <td>PAK</td>
+            <td>100$</td>
+            <td>250</td>
+            <td>PUBG</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>abc</td>
+            <td>Ind</td>
+            <td>100$</td>
+            <td>250</td>
+            <td>GTA-IV</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>abc</td>
+            <td>Bang</td>
+            <td>100$</td>
+            <td>250</td>
+            <td>C.S.Go</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>abc</td>
+            <td>AFG</td>
+            <td>100$</td>
+            <td>250</td>
+            <td>GTA-v</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<!--table end  -->
+    <h1>Form</h1>
+    <div>
+    <h1>Travel Form for our trip</h1>
+            <form action="fome.php">
+                <label for="name">Name</label>  <!--label is used for describing the input text  -->
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <br> <!--type="#" is used for creating a button or textbox -->
+                <!--id="gender" is unique identifier attribute and  used for defining the name of the input  -->                    
+                <input type="radio" name="gender" id="male" value="section a">
+                <label for="male">Male</label>  <!--name attribute are same as the different input radio, when they are not same in form two buttons working in same time  -->
+                <input type="radio" name="gender" id="female" value="section b">
+                <label for="female">Female</label>
+                <br>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" placeholder="Enter your address">
+                <br>
+                <label for="phone">Phone</label>
+                <input type="number" name="phone" id="phone">
+                <br>
+                <label for="img">Image</label>
+                <input type="file" name="img" id="img">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <br>
+                <label for="#">Trip to go on</label>
+                <input type="#" name="#" id="#" placeholder="Enter your password">
+                <br>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+                <br>
+                <select name="dropdown" id="#">
+                    <option value="go">Go</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br>
+                <input type="checkbox">
+                <label for="checkbox">I agree</label>
+                <br>
+                <input type="submit" value="submit">
+                <br>
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/41ZBkZUVApc?si=nRcQkHhcjMBn5N9n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Grid&flex-box</iframe>
+
+
+
+                <iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  width="100%"
+  height="600px"
+  src="https://www.openstreetmap.org/export/embed.html">
+</iframe>
+            </form>
+    </div>
+    <video src="https://cdn.pixabay.com/video/2019/09/30/27400-363524230_tiny.mp4" height="300px" controls>
+      <!-- video attributes controls, poster ,loop ,muted -->
+    </video>
+  </body>
+</html>
